@@ -1,0 +1,50 @@
+[
+  {
+    "id": "slack-01",
+    "title": "Atlas launch decision",
+    "location": "#product \u00b7 Maya Chen",
+    "updated": "2026-09-22",
+    "text": "Atlas launch moved from September 30 to October 14. The blocker is EU residency: the Frankfurt backup restore drill has not passed. Priya owns the drill; Maya owns the launch decision. The old September date is superseded.",
+    "kind": "slack"
+  },
+  {
+    "id": "slack-02",
+    "title": "Restore drill update",
+    "location": "#infra \u00b7 Priya Shah",
+    "updated": "2026-09-25",
+    "text": "Atlas Frankfurt restore drill failed because backup jobs still used the US encryption key. Rotate to the EU KMS key and rerun on October 7. Do not enable EU tenants until the restore evidence is approved.",
+    "kind": "slack"
+  },
+  {
+    "id": "slack-03",
+    "title": "Customer commitment",
+    "location": "#customer-success \u00b7 Leo Martin",
+    "updated": "2026-09-26",
+    "text": "Northstar Health is waiting on Atlas EU residency. We promised an October 14 pilot, contingent on security approval. Leo is the customer contact. No production patient data is allowed in the pilot.",
+    "kind": "slack"
+  },
+  {
+    "id": "slack-04",
+    "title": "SSO pilot feedback",
+    "location": "#support \u00b7 Ana Ortiz",
+    "updated": "2026-09-24",
+    "text": "Acme Retail cannot complete SSO setup because its IdP omits the email claim. Send the SAML attribute mapping guide before escalating. Ana owns the customer follow-up.",
+    "kind": "slack"
+  },
+  {
+    "id": "slack-05",
+    "title": "Original Atlas target",
+    "location": "#product \u00b7 Maya Chen",
+    "updated": "2026-09-10",
+    "text": "Atlas was targeting September 30 before the EU backup review. This is an early planning estimate, not release approval.",
+    "kind": "slack"
+  },
+  {
+    "id": "slack-06",
+    "title": "Search incident follow-up",
+    "location": "#on-call \u00b7 Omar Ali",
+    "updated": "2026-09-28",
+    "text": "The search outage came from connection pool exhaustion after a deploy doubled workers. Rollback restored service in 18 minutes. Omar is adding a pool saturation alert, due October 3.",
+    "kind": "slack"
+  }
+]

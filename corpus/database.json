@@ -1,0 +1,42 @@
+[
+  {
+    "id": "db-01",
+    "title": "ATLAS-142 \u00b7 EU restore verification",
+    "location": "Project tracker \u00b7 Priya Shah",
+    "updated": "2026-09-27",
+    "text": "Ticket ATLAS-142 is blocked. Owner: Priya Shah. Due: October 7. Acceptance: Frankfurt restore drill passes using EU KMS keys and evidence is attached. Dependency: ATLAS-139 key rotation.",
+    "kind": "database"
+  },
+  {
+    "id": "db-02",
+    "title": "ATLAS-139 \u00b7 Backup key rotation",
+    "location": "Project tracker \u00b7 Jun Park",
+    "updated": "2026-09-27",
+    "text": "Ticket ATLAS-139 is in progress. Owner: Jun Park. Due: October 5. Replace the US KMS key in Frankfurt backup jobs with the EU KMS key. This unblocks ATLAS-142.",
+    "kind": "database"
+  },
+  {
+    "id": "db-03",
+    "title": "Northstar Health \u00b7 Pilot account",
+    "location": "CRM \u00b7 Leo Martin",
+    "updated": "2026-09-26",
+    "text": "Northstar Health pilot target: October 14. Region: EU. Account owner: Leo Martin. Status: awaiting residency approval. Contract value: $120,000 annually. Pilot uses synthetic data only.",
+    "kind": "database"
+  },
+  {
+    "id": "db-04",
+    "title": "INC-208 \u00b7 Pool saturation alert",
+    "location": "Incident tracker \u00b7 Omar Ali",
+    "updated": "2026-09-29",
+    "text": "Ticket INC-208 is open. Owner: Omar Ali. Due: October 3. Alert at 80 percent database connection pool saturation for 5 minutes. Related incident: September 28 search outage.",
+    "kind": "database"
+  },
+  {
+    "id": "db-05",
+    "title": "Acme Retail \u00b7 SSO support case",
+    "location": "Support database \u00b7 Ana Ortiz",
+    "updated": "2026-09-25",
+    "text": "Case SUP-81 is awaiting customer action. Account: Acme Retail. Owner: Ana Ortiz. Missing SAML email claim is the confirmed cause. Customer has received the attribute mapping guide.",
+    "kind": "database"
+  }
+]

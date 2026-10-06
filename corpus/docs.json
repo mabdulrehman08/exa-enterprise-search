@@ -1,0 +1,42 @@
+[
+  {
+    "id": "doc-01",
+    "title": "Atlas EU launch gate",
+    "location": "Product handbook \u00b7 Maya Chen",
+    "updated": "2026-09-23",
+    "text": "Atlas EU launch requires three gates: Frankfurt-only storage and backups, a successful restore drill with EU KMS keys, and signed security approval. Target launch is October 14. Priya Shah owns infrastructure evidence. Elena Rossi signs security approval. Maya Chen makes the final go/no-go decision.",
+    "kind": "docs"
+  },
+  {
+    "id": "doc-02",
+    "title": "EU data residency policy",
+    "location": "Security policy \u00b7 Elena Rossi",
+    "updated": "2026-09-20",
+    "text": "EU tenant content, backups, and encryption keys must remain in the EU. Metadata without customer content may be processed globally. No exception is permitted for regulated customer content. Elena Rossi approves residency evidence.",
+    "kind": "docs"
+  },
+  {
+    "id": "doc-03",
+    "title": "SAML setup guide",
+    "location": "Support playbook \u00b7 Ana Ortiz",
+    "updated": "2026-09-18",
+    "text": "SSO requires a verified company domain and a SAML email claim. Map email to user.mail in the identity provider. After changing the mapping, retry login in a fresh session. Escalate to Identity Engineering only if the email claim is present and login still fails.",
+    "kind": "docs"
+  },
+  {
+    "id": "doc-04",
+    "title": "Search outage review",
+    "location": "Engineering postmortem \u00b7 Omar Ali",
+    "updated": "2026-09-29",
+    "text": "On September 28, a worker count increase exhausted the database connection pool and caused an 18-minute search outage. Rollback resolved the incident. Prevention: cap workers at 12, load-test connection budgets, and alert at 80 percent pool saturation. Omar Ali owns the alert; Jun Park owns the load test.",
+    "kind": "docs"
+  },
+  {
+    "id": "doc-05",
+    "title": "Expense policy",
+    "location": "People handbook \u00b7 Sam Rivera",
+    "updated": "2026-09-15",
+    "text": "Employees can expense up to $80 per month for home internet. Submit receipts in the finance portal by the fifth business day of the next month. Sam Rivera handles expense questions.",
+    "kind": "docs"
+  }
+]
